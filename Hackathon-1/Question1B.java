@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Question1B {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,7 +15,5 @@ public class Question1B {
         }
 
         System.out.println("Water Bill: Rs." + bill);
-
-        sc.close();
     }
 }
