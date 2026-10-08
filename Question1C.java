@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Question1c {
 
     static int calculateTotal(int morningUsage, int eveningUsage) {
@@ -18,7 +17,5 @@ public class Question1c {
         int total = calculateTotal(morningUsage, eveningUsage);
 
         System.out.println("Total Water Consumption: " + total + " litres");
-
-        sc.close();
     }
 }
