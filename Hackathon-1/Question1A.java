@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Question1A {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,7 +20,5 @@ public class Question1A {
         System.out.println("Water Consumed: " + waterConsumed + " litres");
         System.out.println("House Number: " + houseNumber);
         System.out.println("Water Usage Status: " + usageStatus);
-
-        sc.close();
     }
 }
